@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Map App</title>
+    <script src="script.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="spacing">
+    <div id="quizContainer">
+      <h1>
+        Map Quiz. Please double click on the map the location of:
+      </h1>
+      <p id="q1">
+        Where is the Art and Design Center?
+      </p>
+      <p id="a1">
+        
+      </p>
+      <p id="q2">
+        
+      </p>
+      <p id="a2">
+        
+      </p>
+      <p id="q3">
+       
+      </p>
+      <p id="a3">
+        
+      </p>
+      <p id="q4">
+        
+      </p>
+      <p id="a4">
+        
+      </p>
+      <p id="q5">
+        
+      </p>
+      <p id="a5">
+        
+      </p>
+      <h2 id="score">
+        
+      </h2>
+    </div>
+    
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNA97DLgQ9hCSI8D4hnEt3vOEkFtjaoHg&callback=initMap&v=weekly&channel=2"
+      async
+    ></script>
+    
+  </body>
+</html>

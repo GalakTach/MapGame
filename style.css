@@ -1,0 +1,45 @@
+p {
+  margin-bottom: 1em;
+}
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: tan;
+}
+
+.spacing {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#map {
+  height: 80%;
+  width: 50%;
+  margin-right: 1em;
+}
+
+#quizContainer {
+  margin: 1em;
+  margin-left: 4em;
+  width: 30%;
+  text-align: center;
+}
+
+#q1,
+#q2,
+#q3,
+#q4,
+#q5 {
+  background: magenta;
+}
+
+#score{
+  font-size: 50px;
+  font-weight: bold;
+}
